@@ -7,7 +7,7 @@
 // Use this file to add JavaScript to your project
 // 
 
-const clickHandler = (event) => {
-    window.location.replace('../../login.html');
+const clickHandler = () => {
+    window.location.href = '../../login.html'
 
 }
