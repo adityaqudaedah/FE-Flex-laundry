@@ -56,7 +56,7 @@
             <!-- Nav Item - Pages Collapse Menu -->
 
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="pilihan_paket.html">
                     <i class="fas fa-fw fa-box-open"></i>
                     <span>Pilihan Paket</span></a>
             </li>
@@ -143,74 +143,54 @@
 <!-- End of Topbar -->
 
 
-            <!--BEGIN PAGE CONTENT (Main CONTENT PILIHAN PAKET) -->
+            <!--BEGIN PAGE CONTENT (Main CONTENT) FORM TAMBAH ADMIN-->
                 <main class="py-4">
-                    <div class="container-fluid">
-                        <button class="btn btn-sm btn-primary mb-3" data-toggle="modal" data-target="#tambah_paket"><i class="fas fa-plus fa-sm"></i> Tambah Paket </button>
-                        <div style="overflow-x:auto;">
-                            <table class="table table-bordered">
-                            <thead>
-                              <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Nama Paket</th>
-                                <th scope="col">Harga / kg</th>
-                                <th scope="col">Keterangan</th>
-                                <th colspan="2" class="text-center">AKSI</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th scope ="row">1</th>
-                                <td>Hanya Cuci</td>
-                                <td>xxxxxxx</td>
-                                <td>Keterangan laundry</td>
-                                <td><a type="button" class="btn btn-primary btn-sm fas fa-edit" href="edit_paket.html"></a></td>
-                                <td><a type="button" class="btn btn-danger btn-sm fas fa-trash-alt"></a></td>
-                              </tr>
-                            </tbody>
-                          </table>
-                    </div>
-
-                    <!-- Modal Tambah Paket (Form Tambah Paket) -->
-                    <div class="modal fade" id="tambah_paket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">FORM INPUT BARANG</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                    <div class="container-fluid ">
+                        <div class="card o-hidden border-0 shadow-lg my-5 col-lg-7 mx-auto">
+                            <div class="card-body p-0">
+                                <!-- Nested Row within Card Body -->
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="p-3">
+                                            <div class="text-center mb-3">
+                                                <h1 class="h4 text-gray-900 mb-2">Tambah Admin Baru</h1>
+                                            </div>
+                                            <form class="user" method="post" action="...">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control form-control-user" id="nama" name="nama"
+                                                        placeholder="Full Name" value=""> 
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control form-control-user" id="email"  name="email"
+                                                        placeholder="Email" value="">
+                                                </div>
+                                                <div class="form-group row justify-content-center">
+                                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                                        <input type="password" class="form-control form-control-user"
+                                                            id="password1" placeholder="Password" name="password1">
+                                                    </div>
+                                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                                        <input type="password" class="form-control form-control-user"
+                                                            id="password2" placeholder="Repeat Password" name="password2">
+                                                    </div>
+                                                    <div class="justify-content-center">.....</div>   
+                                                </div>
+                                                <button type="submit" class="btn btn-primary btn-user btn-block">
+                                                    Tambah Admin
+                                                </button>
+                                            </form>
+                                            <hr>
+                                            <div class="text-left">
+                                                <a class="btn-sm btn-secondary" href="../admin/user_admin.html">Kembali</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            <form action="" method="post" enctype="multipart/form-data">
-                                <div class="form-group">
-                                    <label >Nama Paket</label>
-                                    <input type="text" name="nama_motor" class="form-control"  required>
-                                </div>
-                                <div class="form-group">
-                                    <label >Harga / Kg</label>
-                                    <input type="number" name="harga" class="form-control"  required>
-                                </div>
-                                <div class="form-group">
-                                    <label >Keterangan</label>
-                                    <input type="text" name="keterangan" class="form-control" required>
-                                </div>
-                                <div class="form-group">
-                                    <label >Gambar Barang</label><br>
-                                    <input type="file" name="gambar" class="form-control-file" required>
-                                </div>
-                                </div>
-                                <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="Submit" class="btn btn-primary">Save</button>
-                            </div>
-                            </form>
-                        </div>
                         </div>
                     </div>
-                    <!-- END Modal Tambah Paket (Form Tambah Paket) -->
                 </main>
-            <!-- End (Main CONTENT PILIHAN PAKET) -->
+            <!-- End (Main CONTENT) FORM TAMBAH ADMIN -->
 
 
 <!-- Footer -->
