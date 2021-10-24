@@ -143,34 +143,39 @@
 <!-- End of Topbar -->
 
 
-
-            <!--BEGIN PAGE CONTENT (Main CONTENT) EDIT_PAKET -->
+            <!--BEGIN PAGE CONTENT (Main CONTENT) USER ADMIN -->
                 <main class="py-4">
                     <div class="container-fluid">
-                        <h3><i class="fas fa-edit"></i> Edit Paket</h3>
-                            <form  method="post" action="..." method="post" enctype="multipart/form-data">
-                                <div class="for-group">
-                                    <label >Nama Paket</label>
-                                    <input type="text" name="nama_motor" class="form-control"
-                                    value=".....">
-                                </div>
-                                <div class="for-group">
-                                    <label >Harga / Kg</label>
-                                    <input type="text" name="harga" class="form-control"
-                                    value="....">
-                                </div>
-                                <div class="for-group">
-                                    <label >Keterangan</label>
-                                    <input type="text" name="keterangan" class="form-control"
-                                    value="......">
-                                </div>
-                                <a href="pilihan_paket.html"><div class="btn btn-sm btn-secondary mr-2 mt-3">Back</div></a>
-                                <button type="submit" class="btn btn-primary btn-sm mt-3">Save Changes</button>
-                            </form>
+                        <div style="overflow-x:auto;">
+                            <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th scope="col">id invoice</th>
+                                <th scope="col">Nama</th>
+                                <th scope="col">No.Telp</th>
+                                <th scope="col">Nama Paket</th>
+                                <th scope="col">Waktu</th>
+                                <th scope="col">No.Mesin</th>
+                                <th scope="col">Harga</th>
+                                <th scope="col">AKSI</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope ="row">1</th>
+                                <td>Dodi</td>
+                                <td>0812121</td>
+                                <td>Paket cuci</td>
+                                <td>waktu</td>
+                                <td>001</td>
+                                <td>Rp 30.000</td>
+                                <td><a type="button" class="btn btn-danger btn-sm fas fa-trash-alt"></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
                     </div>
                 </main>
-            <!-- End (Main CONTENT) EDIT_PAKET -->
-
+            <!-- End (Main CONTENT) -->
 
 
 <!-- Footer -->
